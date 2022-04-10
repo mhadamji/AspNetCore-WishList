@@ -7,6 +7,6 @@ namespace WishList.Data
     {
         public ApplicationDbContext(DbContextOptions options) : base(options) { }
 
-        public DbSet<Item> items;
+        public DbSet<Item> Items;
     }
 }
